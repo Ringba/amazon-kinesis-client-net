@@ -126,68 +126,70 @@ namespace Amazon.Kinesis.ClientLibrary.Bootstrap
 
         private static readonly List<MavenPackage> MAVEN_PACKAGES = new List<MavenPackage>()
         {
-            new MavenPackage("software.amazon.kinesis", "amazon-kinesis-client-multilang", "2.1.2"),
-            new MavenPackage("software.amazon.kinesis", "amazon-kinesis-client", "2.1.2"),
-            new MavenPackage("software.amazon.awssdk", "kinesis", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "aws-cbor-protocol", "2.4.0"),
-            new MavenPackage("com.fasterxml.jackson.dataformat", "jackson-dataformat-cbor", "2.9.8"),
-            new MavenPackage("software.amazon.awssdk", "aws-json-protocol", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "dynamodb", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "cloudwatch", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "netty-nio-client", "2.4.0"),
-            new MavenPackage("io.netty", "netty-codec-http", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-codec-http2", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-codec", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-transport", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-resolver", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-common", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-buffer", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-handler", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-transport-native-epoll", "4.1.32.Final"),
-            new MavenPackage("io.netty", "netty-transport-native-unix-common", "4.1.32.Final"),
-            new MavenPackage("com.typesafe.netty", "netty-reactive-streams-http", "2.0.0"),
-            new MavenPackage("com.typesafe.netty", "netty-reactive-streams", "2.0.0"),
-            new MavenPackage("org.reactivestreams", "reactive-streams", "1.0.2"),
-            new MavenPackage("com.google.guava", "guava", "26.0-jre"),
-            new MavenPackage("com.google.code.findbugs", "jsr305", "3.0.2"),
-            new MavenPackage("org.checkerframework", "checker-qual", "2.5.2"),
-            new MavenPackage("com.google.errorprone", "error_prone_annotations", "2.1.3"),
-            new MavenPackage("com.google.j2objc", "j2objc-annotations", "1.1"),
-            new MavenPackage("org.codehaus.mojo", "animal-sniffer-annotations", "1.14"),
-            new MavenPackage("com.google.protobuf", "protobuf-java", "2.6.1"),
-            new MavenPackage("org.apache.commons", "commons-lang3", "3.8.1"),
-            new MavenPackage("org.slf4j", "slf4j-api", "1.7.25"),
-            new MavenPackage("io.reactivex.rxjava2", "rxjava", "2.1.14"),
-            new MavenPackage("software.amazon.awssdk", "sts", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "aws-query-protocol", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "protocol-core", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "profiles", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "sdk-core", "2.4.0"),
-            new MavenPackage("com.fasterxml.jackson.core", "jackson-core", "2.9.8"),
-            new MavenPackage("com.fasterxml.jackson.core", "jackson-databind", "2.9.8"),
-            new MavenPackage("software.amazon.awssdk", "auth", "2.4.0"),
-            new MavenPackage("software.amazon", "flow", "1.7"),
-            new MavenPackage("software.amazon.awssdk", "http-client-spi", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "regions", "2.4.0"),
-            new MavenPackage("com.fasterxml.jackson.core", "jackson-annotations", "2.9.0"),
-            new MavenPackage("software.amazon.awssdk", "annotations", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "utils", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "aws-core", "2.4.0"),
-            new MavenPackage("software.amazon.awssdk", "apache-client", "2.4.0"),
-            new MavenPackage("org.apache.httpcomponents", "httpclient", "4.5.6"),
-            new MavenPackage("commons-codec", "commons-codec", "1.10"),
-            new MavenPackage("org.apache.httpcomponents", "httpcore", "4.4.10"),
-            new MavenPackage("com.amazonaws", "aws-java-sdk-core", "1.11.477"),
-            new MavenPackage("commons-logging", "commons-logging", "1.1.3"),
-            new MavenPackage("software.amazon.ion", "ion-java", "1.0.2"),
-            new MavenPackage("joda-time", "joda-time", "2.8.1"),
+            new MavenPackage("software.amazon.kinesis", "amazon-kinesis-client-multilang", "2.2.10"),
+            new MavenPackage("software.amazon.kinesis", "amazon-kinesis-client", "2.2.10"),
+
             new MavenPackage("ch.qos.logback", "logback-classic", "1.2.3"),
             new MavenPackage("ch.qos.logback", "logback-core", "1.2.3"),
+            new MavenPackage("com.amazonaws", "aws-java-sdk-core", "1.11.477"),
             new MavenPackage("com.beust", "jcommander", "1.72"),
-            new MavenPackage("commons-io", "commons-io", "2.6"),
-            new MavenPackage("org.apache.commons", "commons-collections4", "4.2"),
+            new MavenPackage("com.fasterxml.jackson.core", "jackson-annotations", "2.9.0"),
+            new MavenPackage("com.fasterxml.jackson.core", "jackson-core", "2.10.0"),
+            new MavenPackage("com.fasterxml.jackson.core", "jackson-databind", "2.10.0"),
+            new MavenPackage("com.fasterxml.jackson.dataformat", "jackson-dataformat-cbor", "2.10.0"),
+            new MavenPackage("com.google.code.findbugs", "jsr305", "3.0.2"),
+            new MavenPackage("com.google.errorprone", "error_prone_annotations", "2.1.3"),
+            new MavenPackage("com.google.guava", "guava", "26.0-jre"),
+            new MavenPackage("com.google.j2objc", "j2objc-annotations", "1.1"),
+            new MavenPackage("com.google.protobuf", "protobuf-java", "2.6.1"),
+            new MavenPackage("com.typesafe.netty", "netty-reactive-streams", "2.0.4"),
+            new MavenPackage("com.typesafe.netty", "netty-reactive-streams-http", "2.0.4"),
             new MavenPackage("commons-beanutils", "commons-beanutils", "1.9.3"),
-            new MavenPackage("commons-collections", "commons-collections", "3.2.2")
+            new MavenPackage("commons-codec", "commons-codec", "1.11"),
+            new MavenPackage("commons-collections", "commons-collections", "3.2.2"),
+            new MavenPackage("commons-io", "commons-io", "2.6"),
+            new MavenPackage("commons-logging", "commons-logging", "1.1.3"),
+            new MavenPackage("commons-logging", "commons-logging", "1.2"),
+            new MavenPackage("io.netty", "netty-buffer", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-codec", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-codec-http", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-codec-http2", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-common", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-handler", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-resolver", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-transport", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-transport-native-epoll", "4.1.42.Final"),
+            new MavenPackage("io.netty", "netty-transport-native-unix-common", "4.1.42.Final"),
+            new MavenPackage("io.reactivex.rxjava2", "rxjava", "2.1.14"),
+            new MavenPackage("joda-time", "joda-time", "2.8.1"),
+            new MavenPackage("org.apache.commons", "commons-collections4", "4.2"),
+            new MavenPackage("org.apache.commons", "commons-lang3", "3.8.1"),
+            new MavenPackage("org.apache.httpcomponents", "httpclient", "4.5.9"),
+            new MavenPackage("org.apache.httpcomponents", "httpcore", "4.4.11"),
+            new MavenPackage("org.checkerframework", "checker-qual", "2.5.2"),
+            new MavenPackage("org.codehaus.mojo", "animal-sniffer-annotations", "1.14"),
+            new MavenPackage("org.reactivestreams", "reactive-streams", "1.0.2"),
+            new MavenPackage("org.slf4j", "slf4j-api", "1.7.25"),
+            new MavenPackage("software.amazon.awssdk", "annotations", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "apache-client", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "auth", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "aws-cbor-protocol", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "aws-core", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "aws-json-protocol", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "aws-query-protocol", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "cloudwatch", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "dynamodb", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "http-client-spi", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "kinesis", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "netty-nio-client", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "profiles", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "protocol-core", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "regions", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "sdk-core", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "sts", "2.10.66"),
+            new MavenPackage("software.amazon.awssdk", "utils", "2.10.66"),
+            new MavenPackage("software.amazon.eventstream", "eventstream", "1.0.1"),
+            new MavenPackage("software.amazon.ion", "ion-java", "1.0.2")
         };
 
         /// <summary>
@@ -313,8 +315,16 @@ namespace Amazon.Kinesis.ClientLibrary.Bootstrap
                             UseShellExecute = false
                         }
                     };
-                    proc.Start();
-                    proc.WaitForExit();
+
+                    if (proc.Start())
+                    {
+                        Console.WriteLine($"Started Java process: {proc.Id}");
+                        proc.WaitForExit();
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Java process failed to start");
+                    }
                 }
                 else
                 {
